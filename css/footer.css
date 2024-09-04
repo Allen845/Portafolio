@@ -1,0 +1,65 @@
+.fondo-footer {
+    background: rgb(16, 74, 97);
+    padding: 20px 0px;
+}
+.footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer {
+    width: 350px;
+    margin-bottom: 10px;
+    color: white;
+}
+footer h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.redes {
+    text-align: center;
+}
+.redes a {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.redes a:active {
+    transform: translateY(2px);
+}
+.redes a:hover {
+    transform: translateY(2px);
+}
+
+.ico {
+    font-size: 30px;
+    color: #0b0b0b;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    border-radius: 30%;
+}
+.fondo-pie {
+    background: black;
+    padding: 20px 0px;
+}
+.pies {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pie {
+    width: 350px;
+    color: white;
+    text-align: center;
+}
+@media only screen and (min-width:480px) and (max-width:780px) {
+    .fondo-pie {
+       margin-right: -30%;
+    }
+}

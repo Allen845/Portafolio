@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Perez</title>
+    <link rel="shortcut icon" href="img/Imagen3.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/63de5d1655.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/tarjetas.css">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="css/Testimonios.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/yo.css">
+    <style>
+          #preloader{
+            position:fixed;
+            z-index:10000000000000000;
+            background: white;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+        }
+        #preloader img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+        }
+    </style>
+    <script src="js/scrip.js"></script>
+
+</head>
+<body>
+    <div id="preloader">
+        <img src="img/carga.gif" alt="">
+    </div>
+    <div id="inicio"></div>
+    <header id="header">
+        <div class="container">
+        <div id="logo">
+            <img src="img/Imagen3.png"alt="" width="80px">
+        </div>
+        <!--Menu Hamburguesa-->
+        <label class="btn-menu" onclick="llamar()">
+            <i class="fas fa-bars" id="menu"></i>
+        </label>
+        <!-- Etiqueta asociada al checkbox -->
+        <label for="check"></label>
+        <input type="checkbox" id="check" title="Control para mostrar u ocultar el menú">
+        <!--Fin del Menu Hamburguesa-->
+
+        <nav class="botonera">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Sobre Mi</a></li>
+                <li><a href="#galeria">Portafolio</a></li>
+                <li><a href="#servicio">Servicios</a></li>
+                <li><a href="#adoptame">Testimonios</a></li>
+                <li><a href="#contacto">Contactame</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <!--Etiqueta del Banner-->
+    <div class="banner">
+        <div class="overlay">
+        <div class="cont-banner">
+            <h1>Fernando Perez</h1>
+            <p>Diseñador Web</p>
+            <p>Egresado de Desarrollo de Sistemas</p>
+        </div>
+        </div>
+    </div>
+    <main id="nosotros">
+        <h2>Sobre Mi <i class="fas fa-id-card"></i></h2>
+        <p>Soy estudiante de Diseño Web y egresado de la carrera de Desarrollo de Sistemas en IDAT. Mi pasión por la tecnología y el diseño me impulsa a aprender constantemente 
+		y mejorar mis habilidades. Me considero una persona responsable, respetuosa y comprometida en todo lo que hago. Disfruto trabajar en equipo y enfrentar 
+		nuevos desafíos que me permitan crecer profesional y personalmente. Mi objetivo es contribuir con soluciones innovadoras y efectivas en el ámbito del desarrollo y diseño web</p>
+        <img src="img/Imagen3.png" alt="" class="img-responsiveyo">
+        <button class="cv"><i class="fa-solid fa-file-arrow-down" style="margin-right: 10px; font-size: 18px;"></i><a href="CV-FERNANDO.pdf" style="text-decoration: none; color: white;">Descargar CV</a></button>
+    </main>
+    <!--Galeria de la Web-->
+    <div class="fondo-galeria" id="galeria"></div>
+     <h2 class="text-galeria">ESPECIALIDADES <i class="fas fa-briefcase"></i></h2>
+        <div class="galeria-1">
+            <aside>
+                <img src="img/excell.png" alt="" class="img-aside">
+                <div class="cont-aside">
+                    <h3>Excel</h3>
+                    <p>Office 2022</p>
+                    <p>96%</p>
+                </div>
+            </aside>
+            <aside>
+                <img src="img/htmll.png" alt="" class="img-aside">
+                <div class="cont-aside">
+                    <h3>HTML</h3>
+                    <p>Lenguaje de Marcado de Hipertexto</p>
+                    <p>80%</p>
+                </div>
+            </aside>
+            <aside>
+                <img src="img/csss.png" alt="" class="img-aside">
+                <div class="cont-aside">
+                    <h3>CSS y Javascript</h3>
+                    <p>Hojas de Estilo en Cascada y Javascript</p>
+                    <p>80%</p>
+                </div>
+            </aside>
+            <aside>
+                <img src="img/SPRINGBOOT.png" alt="" class="img-aside">
+                <div class="cont-aside">
+                    <h3>Spring Boot</h3>
+                    <p>JAVA 17,22</p>
+                    <P>50%</P>
+                </div>
+            </aside>
+            <aside>
+                <img src="img/ANDROIDKOTLIN.png" alt="" class="img-aside">
+                <div class="cont-aside">
+                    <h3>Android Studio</h3>
+                    <p>JAVA Y KOTLIN</p>
+                    <P>80%</P>
+                </div>
+            </aside>
+            <aside>
+                <img src="img/ETL-ANALISYS.png" alt="" class="img-aside">
+                <div class="cont-aside">
+                    <h3>ETL-ANALISYS SERVICES</h3>
+                    <p>50%</p>
+                </div>
+            </aside>
+   </div>   
+    </div>
+   
+	
+	
+	<div class="section2"> 
+		
+		<div class="fondo">
+				
+		<div class="servicio" id="servicio">
+		<h2>SERVICIOS <i class="fas fa-bell-concierge"></i></h2>
+		<center><hr></center>
+		
+			
+		<!--Aqui se configura flexbox-->	
+			
+		<div class="cont-servicio">
+			
+			<div class="cont-iconos">
+			
+				<div class="contenedor">
+				
+				
+			<i class="iconozzz fas fa-pen-nib"></i>
+			<h3>Branding</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste quibusdam ratione, velit in et.</p>
+			
+				</div>
+			</div>
+			
+			
+			
+			<div class="cont-iconos">
+			
+				<div class="contenedor">
+				
+				
+			<i class="iconozzz fas fa-desktop"></i>
+			<h3>Ordenador</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste quibusdam ratione, velit in et.</p>
+			
+				</div>
+			</div>
+			
+			
+			
+			
+			<div class="cont-iconos">
+			
+				<div class="contenedor">
+				
+				
+			<i class="iconozzz fas fa-heart"></i>
+			<h3>Corazon</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste quibusdam ratione, velit in et.</p>
+			
+				</div>
+			</div>
+			
+			
+			
+			
+			<div class="cont-iconos">
+			
+				<div class="contenedor">
+				
+				
+			<i class="iconozzz fas fa-eye"></i>
+			<h3>Ojos</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste quibusdam ratione, velit in et.</p>
+			
+				</div>
+			</div>
+			
+			
+			<div class="cont-iconos">
+			
+				<div class="contenedor">
+				
+				
+			<i class="iconozzz far fa-lightbulb"></i>
+			<h3>Foco</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste quibusdam ratione, velit in et.</p>
+			
+				</div>
+			</div>
+			
+			
+			<div class="cont-iconos">
+			
+				<div class="contenedor">
+				
+				
+			<i class="iconozzz fas fa-trophy"></i>
+			<h3>Copa</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste quibusdam ratione, velit in et.</p>
+			
+				</div>
+			</div>
+			
+			
+			</div>	
+		
+		
+	</div>
+	
+			</div>
+	
+	</div>
+	
+    <script src="js/scrip.js"></script>
+ <!--Portafolio-->
+	
+ <div class="portafolio" id="portafolio">
+	<h2>PORTAFOLIO <i class="fa-solid fa-file-code"></i></h2>
+    <hr>
+	<div class="galeria">	
+	<div class="galeria__item">
+	<a href="https://allen845.github.io/Portafolio.github.io/" target="_blank">
+	<img src="img/1erportafolio.png" class="galeria__img">
+	</a>	
+	</div>	
+	<div class="galeria__item">
+	<a href="https://allen845.github.io/Webresponsive1/" target="_blank">
+	<img src="img/Tarea01.png" class="galeria__img">
+	</a>
+	</div>	
+	<div class="galeria__item">
+	<a href="https://allen845.github.io/tarea022/" target="_blank">	
+	<img src="img/Tarea02.png" class="galeria__img">
+	</a>
+	</div>	
+
+	<div class="galeria__item">
+	<a href="https://allen845.github.io/Dental03/" target="_blank">
+	<img src="img/Dental.png" class="galeria__img">
+	</a>	
+	</div>	
+    <div class="galeria__item">
+        <a href="https://allen845.github.io/miperu2022/" target="_blank">	
+        <img src="img/Tarea03.png" class="galeria__img">
+    </a>
+    </div>	
+    <div class="galeria__item">
+    <a href="https://allen845.github.io/spa03/" target="_blank">	
+    <img src="img/spa.png" class="galeria__img">
+    </a>
+    </div>	
+    <div class="galeria__item">
+        <a href="https://allen845.github.io/tarea04/" target="_blank">	
+        <img src="img/tarea04.png" class="galeria__img">
+        </a>
+    </div>
+    <div class="galeria__item">
+        <a href="https://allen845.github.io/Tarea05/" target="_blank">	
+        <img src="img/tarea05.png" class="galeria__img">
+        </a>
+    </div>	 
+    <div class="galeria__item">
+        <a href="https://verdant-fairy-fa7225.netlify.app" target="_blank">	
+        <img src="img/Tarea11-23.png" class="galeria__img">
+        </a>
+    </div>
+    <div class="galeria__item">
+        <a href="https://allen845.github.io/MiPeru2023/" target="_blank">	
+        <img src="img/MiPeru2023.png" class="galeria__img">
+        </a>
+    </div>
+    <div class="galeria__item">
+        <a href="https://github.com/GaboLopezAran/MovilesEVC4/" target="_blank">	
+        <img src="img/ANDROIDKOTLIN.png" class="galeria__img">
+        </a>
+    </div>
+    <div class="galeria__item">
+        <a href="https://github.com/GaboLopezAran/ServicioMoviles/" target="_blank">	
+        <img src="img/SPRINGBOOT.png" class="galeria__img">
+        </a>
+    </div>
+    <div class="galeria__item">
+        <a href="https://miweblatina.com/" target="_blank">	
+        <img src="img/AlfabetizacionDigital.png" class="galeria__img">
+        </a>
+    </div>
+    <div class="galeria__item">
+        <a href="https://miweblatina.com/aulavirtual/login/login.html" target="_blank">	
+        <img src="img/INTRANET.png" class="galeria__img">
+        </a>
+    </div>
+
+    
+	</div>			
+		<script src="script/modal.js"></script>
+	</div>
+    <div id="adoptame" class="fondo-adoptame">
+        <h2 class="text-adoptame">Testimonios <span class="fas fa-people-line"></span></h2>
+        <div class="pets">
+            <div class="pet">
+                <img src="img/testi1.jpeg" alt="" class="img-pet">
+                <h3>Freddy Vega</h3>
+                <p>"El crimen no paga tanto como el Codigo"</p>
+            </div>
+            <div class="pet">
+                <img src="img/Pallin.png" alt="" class="img-pet">
+                <h3>Miguel Pallin</h3>
+                <p>Es alumno(a) aplicado y con muchas de aprender, siempre atento y preguntando sobre los temas de la web..</p>
+            </div>
+            <div class="pet">
+                <img src="img/testimonio.jpg" alt="" class="img-pet">
+                <h3>Tom</h3>
+                <p>MLorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, illum</p>
+            </div>
+            <div class="pet">
+                <img src="img/testimonio4.jpg" alt="" class="img-pet">
+                <h3>Clare</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, illum</p>
+            </div>
+        </div>   
+    </div>
+    <!--Hoja de Contactos-->
+    <div class="art-contenedor" id="contacto">
+	<h2 align="center">CONTACTO <span class="fas fa-file-signature"></span></h2>
+	<hr>
+	<div class="form">
+	<form action="PHP/enviar.php" method="POST">	
+		<h2>CONTACTAME</h2>
+		<h3>ESCRIBEME UN COMENTARIO</h3>	
+		<p>Nombre Completo *</p>
+		<input type="text" placeholder="Ingrese su Nombre Completo" name="nombres">
+		<p>Correo Electronico *</p>
+		<input type="email" placeholder="Ingrese su Correo" name="email">
+		<p>Telefono *</p>
+		<input type="number" placeholder="Ingrese su Telefono" name="telefono">
+		<p>Comentario</p>
+		<textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+		<br>
+		<input type="submit" value="Enviar" name="envio">	
+	</form>
+	</div>
+    <div class="imagen">
+        <img src="img/fondocontac.png" class="img-cont">
+        </div>
+	</div>	
+    <!--Footer de la pagina-->
+    <div class="fondo-footer">
+        <div class="footer">
+            <footer>
+                <img src="img/Imagen3.png" alt="" width="100px">
+                <h2>FERNANDO PEREZ</h2>
+                <p>Diseñador Web</p>
+		<p>Egresado de IDAT</p>
+            </footer>
+            <footer>
+                <h2>Mis Centros de Estudios</h2>
+                <ul class="listas">
+                    <li>UTP</li>
+                    <li>Miguel pallin</li>
+                    <li>Instituto Idat</li>
+                    <li>Tecnologia zero</li>    
+                </ul>
+            </footer>
+            <footer>
+                <h2>Visitame en mis Redes:</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/fernandojose.vidaurreperez.7/" target="_blank">
+                        <i class="ico fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://github.com/Allen845" target="_blank">
+                        <i class="ico fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ferjosperez77/" target="_blank">
+                        <i class="ico fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/Fernanjos65554" target="_blank">
+                        <i class="ico fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div> 
+    <div class="fondo-pie">
+        <div class="pies">
+            <div class="pie">
+                <p>Creado y Desarrollado por &copy; Fernando Perez.</p>
+            </div>
+            <div class="pie">
+                <p>Todos los Derechos Reservados a &copy; Fernando Perez.</p>
+            </div>
+        </div>
+    </div> 
+    <div id="redes">
+        <div id="facebook">
+        <a class="fa-brands fa-square-facebook" href="https://www.facebook.com/fernandojose.vidaurreperez.7/" target="_blank"></a>
+        </div>  
+        <div id="instagram">
+            <a class="fa-brands fa-square-instagram" href="https://www.instagram.com/ferjosperez77/"  target="_blank"></a>
+        </div> 
+        <div id="Twitter">
+            <a class="fa-brands fa-square-twitter" href="https://x.com/Fernanjos65554"  target="_blank"></a>
+        </div>
+        <div id="github">
+            <a class="fa-brands fa-github" href="https://github.com/Allen845"  target="_blank"></a>
+        </div>        
+</div>
+</body>
+</html>
+

@@ -1,0 +1,91 @@
+.section2 {
+	width: 100%;
+
+	
+}
+
+.fondo {
+	margin: 0;
+	background: url( ../img/fondoservice1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	
+}
+
+.fondo img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	
+}
+
+
+
+aside h4 {
+	color: #fff;
+	text-align: center;
+}
+
+
+.servicio{
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	padding:20px 0px;
+}
+
+.servicio h2 {
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	font-family: 'Russo One', sans-serif;
+}
+
+.servicio hr{
+	width: 30%;
+	border: 1px solid rgba(255,255,255,1.00);
+	
+}
+
+
+.cont-servicio{	
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.iconozzz{
+	color: #FFFFFF;
+	width: 20px;
+}
+.cont-iconos {
+	width:250px;
+	margin:15px ;
+
+}
+
+
+.cont-iconos h3 {
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+}
+
+.cont-iconos p {
+	color: #fff;
+	text-align:center;
+	
+}
+
+.contenedor {
+	
+	text-align: center;
+}
+.icon-eye,.icon-edit, .icon-foco, .icon-testimonio, .icon-desktop, .icon-heart {
+	color: #fff;
+	font-size: 38px;
+}

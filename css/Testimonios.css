@@ -1,0 +1,39 @@
+.fondo-adoptame {
+    background-color: rgba(0, 0, 0, 0.685);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-adoptame {
+    text-align: center;
+    margin-bottom: 9px;
+    margin-top: 4px;
+    color: #ffff;
+    font-family: 'Russo One', sans-serif;
+}
+.pets {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pet {
+    width: 220px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pet h3 , p {
+    color: #ffff;
+}
+.img-pet {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid darkgrey;
+}
+@media only screen and (max-width:980px){
+    .pets {
+        margin-right: -20px;
+    }
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Tahoma;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index:100000;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#logo img{
+    float: left;
+}
+#logo {
+    z-index: 1100;
+    position: relative;
+}
+.botonera{
+    float: right;
+    margin-right: -140px;
+}
+.botonera ul{
+    display: flex;
+    list-style: none;
+}
+.botonera a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: tahoma;
+    color: white;
+}
+.banner{
+    position: relative;
+    background: url(../img/fondo111.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height: 100vh;
+}
+.cont-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color: white;
+}
+.cont-banner h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+main{
+    width: 80%;
+    margin:20px auto;
+    overflow: hidden;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;  
+}
+
+.img-responsiveyo{
+    width: 50vh;
+    max-width: 100%;
+    display: block;
+    float: right; 
+    margin-top: -vh; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+main p {
+    overflow: hidden;
+    float: left;
+    width: 700px;
+    color: black;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.img-article{
+    width: 100%;
+}
+.cv {
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    color: rgb(255, 255, 255);
+    border-color: #1F2C33;
+    background-color: #1F2C33;
+    padding-top: 18px;
+    padding-right: 32px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1em;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin: 8px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+@media only screen and (max-width:980px){
+    .cv {
+        margin-right: -200px;
+        margin-left: 1.5px;
+        margin-top: 380px;
+        justify-content: center;
+    }
+}

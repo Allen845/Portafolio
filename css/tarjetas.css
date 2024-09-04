@@ -1,0 +1,154 @@
+
+.portafolio {
+	
+	padding-top: 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.portafolio h2 {
+	font-family: 'Russo One', sans-serif;
+	font-weight: bold;
+}
+
+.portafolio hr{
+	width: 30%;
+	border: 1px solid rgba(172,172,172,1.00);
+	margin: 20px auto;
+	
+}
+
+
+
+.galeria{
+	margin: auto;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.galeria__item{
+	width: 300px;
+	margin: 10px;
+	
+	
+}
+
+
+.galeria__img{
+	display: block;
+	max-width: 100%;
+	border-radius: 4px;
+	
+}
+
+.galeria__img:hover{
+	box-shadow: 0 10px 17px 2px rgba(0, 0, 0, 0.737), 0 8px 14px 2px rgba(0,0,0,.12), 0 8px 8px -3px rgba(0,0,0,.2);
+	cursor: pointer;
+}
+
+
+/*Imagen Modal */
+
+.modal{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.8);
+	top: 30px;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+}
+
+.modal__img{
+	width: 80%;
+	max-width: 700px;
+	border: 5px solid white;
+	border-radius: 5px;
+	position: relative;
+}
+
+
+.modal__boton{
+	width: 50px;
+	height: 50px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: monospace;
+	line-height: 50px;
+	text-align: center;
+	background:#FFFFFF;
+	border-radius: 50px;
+	position: absolute;
+	right: 20px;
+	top: 90px;
+	cursor: pointer;
+}
+	
+
+@media (max-width:991px){
+
+	.galeria{
+		width: 100%;
+	}
+	
+.galeria__item{
+	width:400px;
+	
+	
+}
+	
+}
+
+
+
+@media (max-width:768px){
+	
+	
+.galeria__item{
+	width: 250px;
+	
+	
+}
+	
+}
+
+
+
+@media (max-width:500px){
+	
+	
+.galeria__item{
+	width: 400px;
+	
+	
+}
+	
+	
+.modal__img{
+	width: 90%;
+	max-width: 600px;
+	border: 8px solid white;
+	border-radius: 8px;
+	position: relative;
+}
+	
+
+.portafolio hr{
+	width: 80%;
+	
+	
+}	
+	
+}
+
+
+	
+	

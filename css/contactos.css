@@ -1,0 +1,169 @@
+.art-contenedor h2 {
+	align-content: center;	
+	padding-top: 15px;
+	font-family: 'Russo One', sans-serif;
+	font-weight: bold;
+	
+}
+.art-contenedor hr{
+	width: 30%;
+	border: 1px solid rgba(172,172,172,1.00);
+	margin: 5px auto;
+	
+}
+
+
+
+.art-contenedor {
+	padding: 20px;
+	align-items: center;
+	align-content: center;
+	height:700px;
+	background: #E3E3E3;
+	
+}
+
+.imagen{
+	padding-top: 15px;
+	width: 65%;
+	height: 500px;
+	float: left;
+
+}
+
+
+.img-cont {
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	height: 580px;
+}
+
+.form {
+	align-content: center;
+	margin-top: 26px;
+	width: 32%;
+	float: right;
+	padding: 10px;
+    border-radius: 6px;
+	box-shadow: 0 10px 17px 2px rgba(0, 0, 0, 0.737), 0 8px 14px 2px rgba(0,0,0,.12), 0 8px 8px -3px rgba(0,0,0,.2);
+}
+
+
+.form h2 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.form h3 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.form p{
+	font-size: 13px;
+	color: black;
+}
+
+input[type="text"],input[type="email"],input[type="number"] {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	border: 0;
+	border: 1px solid #000000;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	background-color: rgba(181, 181, 181, 0.515);
+}
+
+textarea {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: 0;
+	border: 1px solid #000000;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	background-color: rgba(181, 181, 181, 0.515);
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+input[name="envio"]{
+	width: 30%;
+	height: 40px;
+	background: #0845af;
+	border: 0;
+	border-radius: 11px;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+}
+
+
+input[name="envio"]:hover{
+	color:#ffffff;
+	background: #000000;
+	border:0;
+	transition: 0.5s ease-in-out;
+
+	
+}
+
+
+
+@media (max-width:991px){
+	
+	.art-contenedor{
+width: 100%;
+			height: 850px;
+		
+	
+		}
+
+		
+.imagen{
+	width: 100%;
+	height: 200px;
+	
+}
+.img-cont {
+    width: 100%;
+    height: 200px;
+}
+	
+.form {
+	align-content: center;
+	width: 100%;
+	
+}
+	
+	
+}
+@media only screen and (min-width:480px) and (max-width:980px){
+.imagen {
+	display: none;
+}
+	.form {
+	width: 100%;
+	height: 540px;
+	
+}
+
+	.imagen{
+	width: 100%;
+		height: 200px;
+	
+}
+	.art-contenedor{
+	width: 100%;
+	
+	}
+
+
+
+	}

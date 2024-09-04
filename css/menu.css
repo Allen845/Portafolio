@@ -1,0 +1,84 @@
+#menu, #check{
+    display: none;
+}
+#check:checked ~ .botonera{
+    left: 0%;
+    transition: 0.5s ease-out;
+}
+/*Mediaqueris para Tablets*/
+@media only screen and (max-width:980px){
+    #menu{
+        display: block;
+        float:right ;
+        font-size: 30px;
+        color: white;
+        margin: 10px;
+    }
+
+    .btn-menu {
+        display: block; /* Mostrar el menú hamburguesa en pantallas pequeñas */
+        font-size: 30px;
+        cursor: pointer;
+        margin-left: auto;
+        color: white;
+    }
+
+    .botonera {
+        display: none; /* Ocultar el navbar por defecto en móviles */
+        position: absolute;
+        top: 60px; /* Justo debajo del header */
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #000000dd; /* Fondo del navbar */
+        flex-direction: column;
+        align-items: center;
+        z-index: 900;
+    }
+
+    .botonera ul {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .botonera a {
+        padding: 30px 0;
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        font-weight:500;
+        position: relative;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-family: Tahoma;
+        transition: color 0.3s ease;
+    }
+    .botonera a::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        height: 2px;
+        width: 0%;
+        background-color: white;
+        transform: translateX(-50%);
+        transition: width 0.3s ease;
+    }
+    
+    .botonera a:hover::after {
+        width: 50%;
+    }
+    
+    .botonera a:hover {
+        color: #FFD700;
+    }
+    .botonera.click {
+        display: flex;
+    }
+    .header {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+}

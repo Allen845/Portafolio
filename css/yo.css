@@ -1,0 +1,11 @@
+@media only screen and (max-widht:480px) {
+    .img-responsiveyo {
+        bottom: -80px;
+        display: block;
+    }
+    #nosotros p {
+        overflow: hidden;
+        width: 400px;
+        max-width: 100%;
+    }
+}
